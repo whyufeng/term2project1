@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T15:08:40.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="sptrxkTF_g3lGy8m7WUU" version="17.2.2" type="github"><diagram id="hPBcGTMjvYHtOmkIqjpS" name="Page-1">rZNLc4MgEIB/jcfOCMTEHptHm0t6ySFnRjZCB8Uh+Eh/fbGuGptm0sz0JPuxLPCxBmyVNW+WF3JnBOiAhqIJ2DqglIZz6j8tOXeEkGjWkdQqgWwEe/UJCEOkpRJwmiQ6Y7RTxRQmJs8hcRPGrTX1NO1o9HTXgqdwBfYJ19f0oISTHY2jcORbUKnsdyYhzmS8T0ZwklyY+gKxTcBW1hjXjbJmBbq113vp1r3emB0OZiF3f1mw0QfxvmDxtpLzjxee7SqyeMIqFdclXhgP6869gVoqB/uCJ21c+2cO2FK6TPuI+CE/FZ33o2rAb7XEimAdNDePSgYBvnXAZODs2afggmdU1jfNDON6fIGhQeSF/QFyfPV0KD2K8QN084Anet+TNWUuWgPr0Fu4Y+0fJEXkh6X42hKhv1iaPy7Jh2Ojfs9d/O9s8wU=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-26T17:58:52.324Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="7uUQYsA3omGLKnjFr0Pz" version="17.2.2" type="github">
+  <diagram id="hPBcGTMjvYHtOmkIqjpS" name="Page-1">
+    <mxGraphModel dx="687" dy="385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3R8BAee1Lmwa3WrxwWTS-9" value="AS 1" style="swimlane;rounded=0;shadow=0;glass=0;fillColor=#f4d476;gradientColor=none;opacity=80;strokeWidth=2;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="290" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3R8BAee1Lmwa3WrxwWTS-2" value="eth3: (to AS 2)&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3R8BAee1Lmwa3WrxwWTS-9">
+          <mxGeometry x="170" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3R8BAee1Lmwa3WrxwWTS-3" value="eth 1: (h1-1)&lt;br&gt;11.0.1.1/24&lt;br&gt;eth 2: (h1-2)&lt;br&gt;11.0.2.1/24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3R8BAee1Lmwa3WrxwWTS-9">
+          <mxGeometry x="170" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3R8BAee1Lmwa3WrxwWTS-1" value="R1 - &quot;9.0.1.1&quot;&lt;br&gt;11.0.0.0/8" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3R8BAee1Lmwa3WrxwWTS-9">
+          <mxGeometry x="170" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3R8BAee1Lmwa3WrxwWTS-5" value="h1-2&lt;br&gt;11.0.2.254/24" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="3R8BAee1Lmwa3WrxwWTS-9">
+          <mxGeometry x="30" y="130" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3R8BAee1Lmwa3WrxwWTS-4" value="h1-1&lt;br&gt;11.0.1.254/24" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="3R8BAee1Lmwa3WrxwWTS-9">
+          <mxGeometry x="30" y="37.5" width="50" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
